@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D38F607A29CAFFD20025125F /* PracticaIOSSuperPoderesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F607929CAFFD20025125F /* PracticaIOSSuperPoderesApp.swift */; };
+		D38F607C29CAFFD20025125F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F607B29CAFFD20025125F /* ContentView.swift */; };
+		D38F607E29CAFFD20025125F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38F607D29CAFFD20025125F /* Assets.xcassets */; };
+		D38F608229CAFFD20025125F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38F608129CAFFD20025125F /* Preview Assets.xcassets */; };
+		D38F608C29CAFFD20025125F /* PracticaIOSSuperPoderesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F608B29CAFFD20025125F /* PracticaIOSSuperPoderesTests.swift */; };
+		D38F609629CAFFD30025125F /* PracticaIOSSuperPoderesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F609529CAFFD30025125F /* PracticaIOSSuperPoderesUITests.swift */; };
+		D38F609829CAFFD30025125F /* PracticaIOSSuperPoderesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F609729CAFFD30025125F /* PracticaIOSSuperPoderesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D38F608829CAFFD20025125F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D38F606E29CAFFD20025125F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D38F607529CAFFD20025125F;
+			remoteInfo = PracticaIOSSuperPoderes;
+		};
+		D38F609229CAFFD30025125F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D38F606E29CAFFD20025125F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D38F607529CAFFD20025125F;
+			remoteInfo = PracticaIOSSuperPoderes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D38F607629CAFFD20025125F /* PracticaIOSSuperPoderes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticaIOSSuperPoderes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38F607929CAFFD20025125F /* PracticaIOSSuperPoderesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticaIOSSuperPoderesApp.swift; sourceTree = "<group>"; };
+		D38F607B29CAFFD20025125F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D38F607D29CAFFD20025125F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D38F607F29CAFFD20025125F /* PracticaIOSSuperPoderes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PracticaIOSSuperPoderes.entitlements; sourceTree = "<group>"; };
+		D38F608129CAFFD20025125F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D38F608729CAFFD20025125F /* PracticaIOSSuperPoderesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticaIOSSuperPoderesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38F608B29CAFFD20025125F /* PracticaIOSSuperPoderesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticaIOSSuperPoderesTests.swift; sourceTree = "<group>"; };
+		D38F609129CAFFD30025125F /* PracticaIOSSuperPoderesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticaIOSSuperPoderesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38F609529CAFFD30025125F /* PracticaIOSSuperPoderesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticaIOSSuperPoderesUITests.swift; sourceTree = "<group>"; };
+		D38F609729CAFFD30025125F /* PracticaIOSSuperPoderesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticaIOSSuperPoderesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D38F607329CAFFD20025125F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38F608429CAFFD20025125F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38F608E29CAFFD30025125F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D38F606D29CAFFD20025125F = {
+			isa = PBXGroup;
+			children = (
+				D38F607829CAFFD20025125F /* PracticaIOSSuperPoderes */,
+				D38F608A29CAFFD20025125F /* PracticaIOSSuperPoderesTests */,
+				D38F609429CAFFD30025125F /* PracticaIOSSuperPoderesUITests */,
+				D38F607729CAFFD20025125F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D38F607729CAFFD20025125F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D38F607629CAFFD20025125F /* PracticaIOSSuperPoderes.app */,
+				D38F608729CAFFD20025125F /* PracticaIOSSuperPoderesTests.xctest */,
+				D38F609129CAFFD30025125F /* PracticaIOSSuperPoderesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D38F607829CAFFD20025125F /* PracticaIOSSuperPoderes */ = {
+			isa = PBXGroup;
+			children = (
+				D38F607929CAFFD20025125F /* PracticaIOSSuperPoderesApp.swift */,
+				D38F607B29CAFFD20025125F /* ContentView.swift */,
+				D38F607D29CAFFD20025125F /* Assets.xcassets */,
+				D38F607F29CAFFD20025125F /* PracticaIOSSuperPoderes.entitlements */,
+				D38F608029CAFFD20025125F /* Preview Content */,
+			);
+			path = PracticaIOSSuperPoderes;
+			sourceTree = "<group>";
+		};
+		D38F608029CAFFD20025125F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D38F608129CAFFD20025125F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D38F608A29CAFFD20025125F /* PracticaIOSSuperPoderesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D38F608B29CAFFD20025125F /* PracticaIOSSuperPoderesTests.swift */,
+			);
+			path = PracticaIOSSuperPoderesTests;
+			sourceTree = "<group>";
+		};
+		D38F609429CAFFD30025125F /* PracticaIOSSuperPoderesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D38F609529CAFFD30025125F /* PracticaIOSSuperPoderesUITests.swift */,
+				D38F609729CAFFD30025125F /* PracticaIOSSuperPoderesUITestsLaunchTests.swift */,
+			);
+			path = PracticaIOSSuperPoderesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D38F607529CAFFD20025125F /* PracticaIOSSuperPoderes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D38F609B29CAFFD30025125F /* Build configuration list for PBXNativeTarget "PracticaIOSSuperPoderes" */;
+			buildPhases = (
+				D38F607229CAFFD20025125F /* Sources */,
+				D38F607329CAFFD20025125F /* Frameworks */,
+				D38F607429CAFFD20025125F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PracticaIOSSuperPoderes;
+			productName = PracticaIOSSuperPoderes;
+			productReference = D38F607629CAFFD20025125F /* PracticaIOSSuperPoderes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D38F608629CAFFD20025125F /* PracticaIOSSuperPoderesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D38F609E29CAFFD30025125F /* Build configuration list for PBXNativeTarget "PracticaIOSSuperPoderesTests" */;
+			buildPhases = (
+				D38F608329CAFFD20025125F /* Sources */,
+				D38F608429CAFFD20025125F /* Frameworks */,
+				D38F608529CAFFD20025125F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D38F608929CAFFD20025125F /* PBXTargetDependency */,
+			);
+			name = PracticaIOSSuperPoderesTests;
+			productName = PracticaIOSSuperPoderesTests;
+			productReference = D38F608729CAFFD20025125F /* PracticaIOSSuperPoderesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D38F609029CAFFD30025125F /* PracticaIOSSuperPoderesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D38F60A129CAFFD30025125F /* Build configuration list for PBXNativeTarget "PracticaIOSSuperPoderesUITests" */;
+			buildPhases = (
+				D38F608D29CAFFD30025125F /* Sources */,
+				D38F608E29CAFFD30025125F /* Frameworks */,
+				D38F608F29CAFFD30025125F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D38F609329CAFFD30025125F /* PBXTargetDependency */,
+			);
+			name = PracticaIOSSuperPoderesUITests;
+			productName = PracticaIOSSuperPoderesUITests;
+			productReference = D38F609129CAFFD30025125F /* PracticaIOSSuperPoderesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D38F606E29CAFFD20025125F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D38F607529CAFFD20025125F = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					D38F608629CAFFD20025125F = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D38F607529CAFFD20025125F;
+					};
+					D38F609029CAFFD30025125F = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D38F607529CAFFD20025125F;
+					};
+				};
+			};
+			buildConfigurationList = D38F607129CAFFD20025125F /* Build configuration list for PBXProject "PracticaIOSSuperPoderes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D38F606D29CAFFD20025125F;
+			productRefGroup = D38F607729CAFFD20025125F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D38F607529CAFFD20025125F /* PracticaIOSSuperPoderes */,
+				D38F608629CAFFD20025125F /* PracticaIOSSuperPoderesTests */,
+				D38F609029CAFFD30025125F /* PracticaIOSSuperPoderesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D38F607429CAFFD20025125F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38F608229CAFFD20025125F /* Preview Assets.xcassets in Resources */,
+				D38F607E29CAFFD20025125F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38F608529CAFFD20025125F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38F608F29CAFFD30025125F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D38F607229CAFFD20025125F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38F607C29CAFFD20025125F /* ContentView.swift in Sources */,
+				D38F607A29CAFFD20025125F /* PracticaIOSSuperPoderesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38F608329CAFFD20025125F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38F608C29CAFFD20025125F /* PracticaIOSSuperPoderesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38F608D29CAFFD30025125F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38F609829CAFFD30025125F /* PracticaIOSSuperPoderesUITestsLaunchTests.swift in Sources */,
+				D38F609629CAFFD30025125F /* PracticaIOSSuperPoderesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D38F608929CAFFD20025125F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D38F607529CAFFD20025125F /* PracticaIOSSuperPoderes */;
+			targetProxy = D38F608829CAFFD20025125F /* PBXContainerItemProxy */;
+		};
+		D38F609329CAFFD30025125F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D38F607529CAFFD20025125F /* PracticaIOSSuperPoderes */;
+			targetProxy = D38F609229CAFFD30025125F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D38F609929CAFFD30025125F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D38F609A29CAFFD30025125F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D38F609C29CAFFD30025125F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PracticaIOSSuperPoderes/PracticaIOSSuperPoderes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PracticaIOSSuperPoderes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlbertoJR.PracticaIOSSuperPoderes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D38F609D29CAFFD30025125F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PracticaIOSSuperPoderes/PracticaIOSSuperPoderes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PracticaIOSSuperPoderes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlbertoJR.PracticaIOSSuperPoderes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D38F609F29CAFFD30025125F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlbertoJR.PracticaIOSSuperPoderesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticaIOSSuperPoderes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PracticaIOSSuperPoderes";
+			};
+			name = Debug;
+		};
+		D38F60A029CAFFD30025125F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlbertoJR.PracticaIOSSuperPoderesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticaIOSSuperPoderes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PracticaIOSSuperPoderes";
+			};
+			name = Release;
+		};
+		D38F60A229CAFFD30025125F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlbertoJR.PracticaIOSSuperPoderesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PracticaIOSSuperPoderes;
+			};
+			name = Debug;
+		};
+		D38F60A329CAFFD30025125F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlbertoJR.PracticaIOSSuperPoderesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PracticaIOSSuperPoderes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D38F607129CAFFD20025125F /* Build configuration list for PBXProject "PracticaIOSSuperPoderes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38F609929CAFFD30025125F /* Debug */,
+				D38F609A29CAFFD30025125F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D38F609B29CAFFD30025125F /* Build configuration list for PBXNativeTarget "PracticaIOSSuperPoderes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38F609C29CAFFD30025125F /* Debug */,
+				D38F609D29CAFFD30025125F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D38F609E29CAFFD30025125F /* Build configuration list for PBXNativeTarget "PracticaIOSSuperPoderesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38F609F29CAFFD30025125F /* Debug */,
+				D38F60A029CAFFD30025125F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D38F60A129CAFFD30025125F /* Build configuration list for PBXNativeTarget "PracticaIOSSuperPoderesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38F60A229CAFFD30025125F /* Debug */,
+				D38F60A329CAFFD30025125F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D38F606E29CAFFD20025125F /* Project object */;
+}
