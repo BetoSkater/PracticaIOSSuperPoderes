@@ -14,6 +14,10 @@
 		D38F608C29CAFFD20025125F /* PracticaIOSSuperPoderesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F608B29CAFFD20025125F /* PracticaIOSSuperPoderesTests.swift */; };
 		D38F609629CAFFD30025125F /* PracticaIOSSuperPoderesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F609529CAFFD30025125F /* PracticaIOSSuperPoderesUITests.swift */; };
 		D38F609829CAFFD30025125F /* PracticaIOSSuperPoderesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F609729CAFFD30025125F /* PracticaIOSSuperPoderesUITestsLaunchTests.swift */; };
+		D38F60AB29CB03AF0025125F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D38F60AF29CB03AF0025125F /* Localizable.strings */; };
+		D38F60AC29CB03AF0025125F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D38F60AF29CB03AF0025125F /* Localizable.strings */; };
+		D38F60AD29CB03AF0025125F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D38F60AF29CB03AF0025125F /* Localizable.strings */; };
+		D38F60B229CB04860025125F /* LocalizableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F60B129CB04860025125F /* LocalizableTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,9 @@
 		D38F609129CAFFD30025125F /* PracticaIOSSuperPoderesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticaIOSSuperPoderesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38F609529CAFFD30025125F /* PracticaIOSSuperPoderesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticaIOSSuperPoderesUITests.swift; sourceTree = "<group>"; };
 		D38F609729CAFFD30025125F /* PracticaIOSSuperPoderesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticaIOSSuperPoderesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D38F60AE29CB03AF0025125F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D38F60B029CB03B50025125F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D38F60B129CB04860025125F /* LocalizableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +102,13 @@
 		D38F607829CAFFD20025125F /* PracticaIOSSuperPoderes */ = {
 			isa = PBXGroup;
 			children = (
+				D38F60A429CB02E50025125F /* Services */,
 				D38F607929CAFFD20025125F /* PracticaIOSSuperPoderesApp.swift */,
 				D38F607B29CAFFD20025125F /* ContentView.swift */,
 				D38F607D29CAFFD20025125F /* Assets.xcassets */,
 				D38F607F29CAFFD20025125F /* PracticaIOSSuperPoderes.entitlements */,
 				D38F608029CAFFD20025125F /* Preview Content */,
+				D38F60AF29CB03AF0025125F /* Localizable.strings */,
 			);
 			path = PracticaIOSSuperPoderes;
 			sourceTree = "<group>";
@@ -116,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				D38F608B29CAFFD20025125F /* PracticaIOSSuperPoderesTests.swift */,
+				D38F60B129CB04860025125F /* LocalizableTest.swift */,
 			);
 			path = PracticaIOSSuperPoderesTests;
 			sourceTree = "<group>";
@@ -127,6 +137,13 @@
 				D38F609729CAFFD30025125F /* PracticaIOSSuperPoderesUITestsLaunchTests.swift */,
 			);
 			path = PracticaIOSSuperPoderesUITests;
+			sourceTree = "<group>";
+		};
+		D38F60A429CB02E50025125F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +232,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = D38F606D29CAFFD20025125F;
 			productRefGroup = D38F607729CAFFD20025125F /* Products */;
@@ -234,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D38F608229CAFFD20025125F /* Preview Assets.xcassets in Resources */,
+				D38F60AB29CB03AF0025125F /* Localizable.strings in Resources */,
 				D38F607E29CAFFD20025125F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38F60AC29CB03AF0025125F /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38F60AD29CB03AF0025125F /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38F60B229CB04860025125F /* LocalizableTest.swift in Sources */,
 				D38F608C29CAFFD20025125F /* PracticaIOSSuperPoderesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +317,18 @@
 			targetProxy = D38F609229CAFFD30025125F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D38F60AF29CB03AF0025125F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D38F60AE29CB03AF0025125F /* en */,
+				D38F60B029CB03B50025125F /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D38F609929CAFFD30025125F /* Debug */ = {

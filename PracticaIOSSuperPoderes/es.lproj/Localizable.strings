@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  PracticaIOSSuperPoderes
+
+  Created by Alberto Junquera Ramírez on 22/3/23.
+  
+*/
+"Loading" = "Cargando...";
+"Error" = "Error";
+"MarvelHeroesList" = "Personajes de Marvel";
