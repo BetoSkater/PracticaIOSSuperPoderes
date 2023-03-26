@@ -27,7 +27,7 @@ struct DataClass: Codable{
     let results: [Heroe]
 }
  //MARK: - Heroe -
-struct Heroe: Codable{
+struct Heroe: Codable, Identifiable{
     let id: Int
     let name: String
     let description: String

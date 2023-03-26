@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct PracticaIOSSuperPoderesApp: App {
+    
+    @StateObject var baseViewModel = BaseViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView(viewModel: HeroesTableViewModel())
+            BaseView()
+                .environmentObject(baseViewModel)
+            //ContentView(viewModel: HeroesTableViewModel())
         }
     }
 }

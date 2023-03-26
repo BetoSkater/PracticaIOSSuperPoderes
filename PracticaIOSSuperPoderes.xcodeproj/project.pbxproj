@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D384DC7829D04E04003F4524 /* HeroesRowCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC7729D04E04003F4524 /* HeroesRowCellView.swift */; };
+		D384DC7929D04E04003F4524 /* HeroesRowCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC7729D04E04003F4524 /* HeroesRowCellView.swift */; };
+		D384DC7A29D04E04003F4524 /* HeroesRowCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC7729D04E04003F4524 /* HeroesRowCellView.swift */; };
+		D384DC7F29D06260003F4524 /* HeroesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC7E29D06260003F4524 /* HeroesListView.swift */; };
+		D384DC8029D06260003F4524 /* HeroesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC7E29D06260003F4524 /* HeroesListView.swift */; };
+		D384DC8129D06260003F4524 /* HeroesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC7E29D06260003F4524 /* HeroesListView.swift */; };
+		D384DC8429D075DA003F4524 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC8329D075DA003F4524 /* BaseView.swift */; };
+		D384DC8529D075DA003F4524 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC8329D075DA003F4524 /* BaseView.swift */; };
+		D384DC8629D075DA003F4524 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC8329D075DA003F4524 /* BaseView.swift */; };
+		D384DC8829D07683003F4524 /* EnumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC8729D07682003F4524 /* EnumTest.swift */; };
+		D384DC8929D07893003F4524 /* Heroe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C08A6729CF69B500D96E56 /* Heroe.swift */; };
+		D384DC8A29D07893003F4524 /* Heroe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C08A6729CF69B500D96E56 /* Heroe.swift */; };
+		D384DC8D29D07BDD003F4524 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC8C29D07BDD003F4524 /* BaseViewModel.swift */; };
+		D384DC8E29D07BDD003F4524 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC8C29D07BDD003F4524 /* BaseViewModel.swift */; };
+		D384DC8F29D07BDD003F4524 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC8C29D07BDD003F4524 /* BaseViewModel.swift */; };
 		D38F607A29CAFFD20025125F /* PracticaIOSSuperPoderesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F607929CAFFD20025125F /* PracticaIOSSuperPoderesApp.swift */; };
 		D38F607C29CAFFD20025125F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F607B29CAFFD20025125F /* ContentView.swift */; };
 		D38F607E29CAFFD20025125F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38F607D29CAFFD20025125F /* Assets.xcassets */; };
@@ -48,6 +63,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D384DC7729D04E04003F4524 /* HeroesRowCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesRowCellView.swift; sourceTree = "<group>"; };
+		D384DC7B29D05AD3003F4524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D384DC7E29D06260003F4524 /* HeroesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesListView.swift; sourceTree = "<group>"; };
+		D384DC8329D075DA003F4524 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		D384DC8729D07682003F4524 /* EnumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumTest.swift; sourceTree = "<group>"; };
+		D384DC8C29D07BDD003F4524 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		D38F607629CAFFD20025125F /* PracticaIOSSuperPoderes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticaIOSSuperPoderes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38F607929CAFFD20025125F /* PracticaIOSSuperPoderesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticaIOSSuperPoderesApp.swift; sourceTree = "<group>"; };
 		D38F607B29CAFFD20025125F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +114,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D384DC8229D0632C003F4524 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				D384DC8329D075DA003F4524 /* BaseView.swift */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		D384DC8B29D07BCD003F4524 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				D384DC8C29D07BDD003F4524 /* BaseViewModel.swift */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
 		D38F606D29CAFFD20025125F = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +153,7 @@
 		D38F607829CAFFD20025125F /* PracticaIOSSuperPoderes */ = {
 			isa = PBXGroup;
 			children = (
+				D384DC7B29D05AD3003F4524 /* Info.plist */,
 				D3C08A6A29CF6C6B00D96E56 /* Views */,
 				D3C08A6929CF6C5700D96E56 /* ViewModels */,
 				D3C08A6629CF696C00D96E56 /* Models */,
@@ -143,6 +181,7 @@
 			children = (
 				D38F608B29CAFFD20025125F /* PracticaIOSSuperPoderesTests.swift */,
 				D38F60B129CB04860025125F /* LocalizableTest.swift */,
+				D384DC8729D07682003F4524 /* EnumTest.swift */,
 			);
 			path = PracticaIOSSuperPoderesTests;
 			sourceTree = "<group>";
@@ -176,6 +215,7 @@
 		D3C08A6929CF6C5700D96E56 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				D384DC8B29D07BCD003F4524 /* BaseView */,
 				D3C08A6B29CF6C8400D96E56 /* HeroesTableViewModel */,
 			);
 			path = ViewModels;
@@ -184,6 +224,7 @@
 		D3C08A6A29CF6C6B00D96E56 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D384DC8229D0632C003F4524 /* BaseView */,
 				D3C08A7429CF743400D96E56 /* HeroesList */,
 			);
 			path = Views;
@@ -200,6 +241,8 @@
 		D3C08A7429CF743400D96E56 /* HeroesList */ = {
 			isa = PBXGroup;
 			children = (
+				D384DC7729D04E04003F4524 /* HeroesRowCellView.swift */,
+				D384DC7E29D06260003F4524 /* HeroesListView.swift */,
 			);
 			path = HeroesList;
 			sourceTree = "<group>";
@@ -339,9 +382,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3A6DA7E29CDC72A00452F39 /* Networking.swift in Sources */,
+				D384DC8D29D07BDD003F4524 /* BaseViewModel.swift in Sources */,
 				D3C08A6829CF69B500D96E56 /* Heroe.swift in Sources */,
+				D384DC7829D04E04003F4524 /* HeroesRowCellView.swift in Sources */,
 				D3C08A6D29CF6CA700D96E56 /* HeroesTableViewModel.swift in Sources */,
+				D384DC7F29D06260003F4524 /* HeroesListView.swift in Sources */,
 				D38F607C29CAFFD20025125F /* ContentView.swift in Sources */,
+				D384DC8429D075DA003F4524 /* BaseView.swift in Sources */,
 				D38F607A29CAFFD20025125F /* PracticaIOSSuperPoderesApp.swift in Sources */,
 				D3C08A7129CF6D2000D96E56 /* Status.swift in Sources */,
 			);
@@ -352,10 +399,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3A6DA7F29CDC72A00452F39 /* Networking.swift in Sources */,
+				D384DC8E29D07BDD003F4524 /* BaseViewModel.swift in Sources */,
+				D384DC8929D07893003F4524 /* Heroe.swift in Sources */,
+				D384DC7929D04E04003F4524 /* HeroesRowCellView.swift in Sources */,
 				D3C08A7229CF6D2000D96E56 /* Status.swift in Sources */,
 				D38F60B229CB04860025125F /* LocalizableTest.swift in Sources */,
 				D38F608C29CAFFD20025125F /* PracticaIOSSuperPoderesTests.swift in Sources */,
 				D3C08A6E29CF6CA700D96E56 /* HeroesTableViewModel.swift in Sources */,
+				D384DC8029D06260003F4524 /* HeroesListView.swift in Sources */,
+				D384DC8529D075DA003F4524 /* BaseView.swift in Sources */,
+				D384DC8829D07683003F4524 /* EnumTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,10 +417,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3A6DA8029CDC72A00452F39 /* Networking.swift in Sources */,
+				D384DC8F29D07BDD003F4524 /* BaseViewModel.swift in Sources */,
+				D384DC7A29D04E04003F4524 /* HeroesRowCellView.swift in Sources */,
 				D3C08A7329CF6D2000D96E56 /* Status.swift in Sources */,
 				D38F609829CAFFD30025125F /* PracticaIOSSuperPoderesUITestsLaunchTests.swift in Sources */,
 				D38F609629CAFFD30025125F /* PracticaIOSSuperPoderesUITests.swift in Sources */,
+				D384DC8A29D07893003F4524 /* Heroe.swift in Sources */,
 				D3C08A6F29CF6CA700D96E56 /* HeroesTableViewModel.swift in Sources */,
+				D384DC8129D06260003F4524 /* HeroesListView.swift in Sources */,
+				D384DC8629D075DA003F4524 /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,6 +577,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PracticaIOSSuperPoderes/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PracticaIOSSuperPoderes/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -555,6 +614,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PracticaIOSSuperPoderes/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PracticaIOSSuperPoderes/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
