@@ -22,7 +22,7 @@ struct HeroesRowCellView: View {
                //http://i.annihil.us/u/prod/marvel/i/mg/1/10/622795c13e687/portrait_uncanny.jpg
                 //"\(heroe.thumbnail.path)/portrait_xlarge.\(heroe.thumbnail.thumbnailExtension)"
             VStack{
-                AsyncImage(url: URL(string:"http://i.annihil.us/u/prod/marvel/i/mg/1/10/622795c13e687/portrait_uncanny.jpg" )){Image in
+                AsyncImage(url: Tool.shared.ThumbnailToURLConverter(this: heroe.thumbnail, withAspect: .portraitUncanny)) {Image in
                     Image
                         .resizable()
                         .frame(width:300 ,height: 250)

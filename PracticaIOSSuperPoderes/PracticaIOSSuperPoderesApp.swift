@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct PracticaIOSSuperPoderesApp: App {
     
-    @StateObject var baseViewModel = BaseViewModel()
+    @StateObject var baseViewModel = HeroesTableViewModel()
     
     var body: some Scene {
         WindowGroup {

@@ -45,7 +45,7 @@ final class HeroesTableViewModel: ObservableObject{
                     debugPrint("Completrion . failure:")
                     self.status = .error(errorMsg: "Error: Failure at retrieven the heroes")
                 case.finished:
-                    debugPrint("Completrion . failure")
+                    debugPrint("Completrion . finished")
                     self.status = .loaded
                     
                 }

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct BaseView: View {
     
-    @EnvironmentObject var baseViewModel: BaseViewModel
+    @EnvironmentObject var baseViewModel: HeroesTableViewModel
     
     var body: some View {
         switch baseViewModel.status{
@@ -19,7 +19,8 @@ struct BaseView: View {
           //  Text("Status: .loading")
             LoadingView()
         case .loaded:
-            Text("Status: .loaded")
+            HeroesListView(heroesViewModel: baseViewModel)
+            
         case .error(errorMsg: let errorMessage):
             Text("Status: .error. --> \(errorMessage)")
         }
@@ -29,6 +30,6 @@ struct BaseView: View {
 struct BaseView_Previews: PreviewProvider {
     static var previews: some View {
         BaseView()
-            .environmentObject(BaseViewModel())
+            .environmentObject(HeroesTableViewModel())
     }
 }
