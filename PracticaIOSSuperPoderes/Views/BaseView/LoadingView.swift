@@ -1,0 +1,27 @@
+//
+//  LoadingView.swift
+//  PracticaIOSSuperPoderes
+//
+//  Created by Alberto Junquera Ramírez on 26/3/23.
+//
+
+import SwiftUI
+
+struct LoadingView: View {
+    var body: some View {
+        ProgressView(label: {
+            Text("Loading")
+        })
+         //   .progressViewStyle(LinearProgressViewStyle(tint: .red))
+        .progressViewStyle(CircularProgressViewStyle(tint: .red))
+        .foregroundColor(.red)
+        
+            
+    }
+}
+
+struct LoadingView_Previews: PreviewProvider {
+    static var previews: some View {
+        LoadingView()
+    }
+}

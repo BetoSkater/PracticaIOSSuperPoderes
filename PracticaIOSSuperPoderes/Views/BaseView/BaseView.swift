@@ -16,7 +16,8 @@ struct BaseView: View {
         case .none:
             Text("Status:.none")
         case .loading:
-            Text("Status: .loading")
+          //  Text("Status: .loading")
+            LoadingView()
         case .loaded:
             Text("Status: .loaded")
         case .error(errorMsg: let errorMessage):

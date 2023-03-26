@@ -9,8 +9,9 @@ import Foundation
 import Combine
 
 final class BaseViewModel: ObservableObject{
-    @Published var status: Status = .none
+    @Published var status: Status = .loading
     
+    //Todo: I think that a subscriptor might not be necessary in here if I create a separate ViewModel for the tableView.
     var suscriptors = Set<AnyCancellable>()
     
     

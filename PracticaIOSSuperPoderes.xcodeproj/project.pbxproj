@@ -22,6 +22,9 @@
 		D384DC8D29D07BDD003F4524 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC8C29D07BDD003F4524 /* BaseViewModel.swift */; };
 		D384DC8E29D07BDD003F4524 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC8C29D07BDD003F4524 /* BaseViewModel.swift */; };
 		D384DC8F29D07BDD003F4524 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC8C29D07BDD003F4524 /* BaseViewModel.swift */; };
+		D384DC9129D090D6003F4524 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC9029D090D6003F4524 /* LoadingView.swift */; };
+		D384DC9229D090D6003F4524 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC9029D090D6003F4524 /* LoadingView.swift */; };
+		D384DC9329D090D6003F4524 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC9029D090D6003F4524 /* LoadingView.swift */; };
 		D38F607A29CAFFD20025125F /* PracticaIOSSuperPoderesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F607929CAFFD20025125F /* PracticaIOSSuperPoderesApp.swift */; };
 		D38F607C29CAFFD20025125F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F607B29CAFFD20025125F /* ContentView.swift */; };
 		D38F607E29CAFFD20025125F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38F607D29CAFFD20025125F /* Assets.xcassets */; };
@@ -69,6 +72,7 @@
 		D384DC8329D075DA003F4524 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		D384DC8729D07682003F4524 /* EnumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumTest.swift; sourceTree = "<group>"; };
 		D384DC8C29D07BDD003F4524 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		D384DC9029D090D6003F4524 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		D38F607629CAFFD20025125F /* PracticaIOSSuperPoderes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticaIOSSuperPoderes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38F607929CAFFD20025125F /* PracticaIOSSuperPoderesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticaIOSSuperPoderesApp.swift; sourceTree = "<group>"; };
 		D38F607B29CAFFD20025125F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				D384DC8329D075DA003F4524 /* BaseView.swift */,
+				D384DC9029D090D6003F4524 /* LoadingView.swift */,
 			);
 			path = BaseView;
 			sourceTree = "<group>";
@@ -384,6 +389,7 @@
 				D3A6DA7E29CDC72A00452F39 /* Networking.swift in Sources */,
 				D384DC8D29D07BDD003F4524 /* BaseViewModel.swift in Sources */,
 				D3C08A6829CF69B500D96E56 /* Heroe.swift in Sources */,
+				D384DC9129D090D6003F4524 /* LoadingView.swift in Sources */,
 				D384DC7829D04E04003F4524 /* HeroesRowCellView.swift in Sources */,
 				D3C08A6D29CF6CA700D96E56 /* HeroesTableViewModel.swift in Sources */,
 				D384DC7F29D06260003F4524 /* HeroesListView.swift in Sources */,
@@ -403,6 +409,7 @@
 				D384DC8929D07893003F4524 /* Heroe.swift in Sources */,
 				D384DC7929D04E04003F4524 /* HeroesRowCellView.swift in Sources */,
 				D3C08A7229CF6D2000D96E56 /* Status.swift in Sources */,
+				D384DC9229D090D6003F4524 /* LoadingView.swift in Sources */,
 				D38F60B229CB04860025125F /* LocalizableTest.swift in Sources */,
 				D38F608C29CAFFD20025125F /* PracticaIOSSuperPoderesTests.swift in Sources */,
 				D3C08A6E29CF6CA700D96E56 /* HeroesTableViewModel.swift in Sources */,
@@ -419,6 +426,7 @@
 				D3A6DA8029CDC72A00452F39 /* Networking.swift in Sources */,
 				D384DC8F29D07BDD003F4524 /* BaseViewModel.swift in Sources */,
 				D384DC7A29D04E04003F4524 /* HeroesRowCellView.swift in Sources */,
+				D384DC9329D090D6003F4524 /* LoadingView.swift in Sources */,
 				D3C08A7329CF6D2000D96E56 /* Status.swift in Sources */,
 				D38F609829CAFFD30025125F /* PracticaIOSSuperPoderesUITestsLaunchTests.swift in Sources */,
 				D38F609629CAFFD30025125F /* PracticaIOSSuperPoderesUITests.swift in Sources */,
