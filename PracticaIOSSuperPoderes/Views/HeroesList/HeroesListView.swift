@@ -23,6 +23,7 @@ struct HeroesListView: View {
                     ForEach(heroes){ heroe in
                         NavigationLink {
                             //TODO: to heroe series navigation
+                            HeroeSeriesView(heroesSeriesViewModel: HeroeSeriesViewModel(heroe: heroe), heroe: heroe)
                         } label: {
                             HeroesRowCellView(heroe: heroe)
                         }

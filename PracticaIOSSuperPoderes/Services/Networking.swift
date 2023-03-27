@@ -16,11 +16,14 @@ enum auth:String{
 enum OrderBy:String{
     case formerModified = "-modified"
     case recentModified = "modified"
+    case startYear = "startYear"
 }
 
 enum EndPoints:String{
     case baseURL = "https://gateway.marvel.com"
     case heroes = "/v1/public/characters"
+    case series = "/series" //TODO: Add the character id in the URL generation
+
 }
 
 enum ApiMethods:String{
@@ -48,5 +51,27 @@ final class Networking{
         return request
         
     }
+    
+    
+    //MARK: - Retrieve all the series from an specifc sharacter -
+        
+        func getHeroeSeries(with heroeId: Int, sortBy orderMethod: OrderBy) -> URLRequest{
+        //https://gateway.marvel.com/v1/public/characters/1017857/series?ts=1&apikey=70c3542b3477f3734ce1952ea11618d0&hash=6423f50f3bcfcaa65516d29bcf4298ba&orderBy=startYear
+
+            //URL generation
+            let accessAuth = "?ts=\(auth.ts.rawValue)&apikey=\(auth.apikey.rawValue)&hash=\(auth.hash.rawValue)"
+            let sortBy = "&orderBy=\(orderMethod.rawValue)"
+            let urlString = "\(EndPoints.baseURL.rawValue)\(EndPoints.heroes.rawValue)/\(heroeId)\(EndPoints.series.rawValue)\(accessAuth)\(sortBy)"
+            let url = URL(string: urlString)
+            
+            //Request
+            var request = URLRequest(url: url!)
+            request.httpMethod = ApiMethods.get.rawValue
+            
+            return request
+            
+        }
+    
+    
     
 }
