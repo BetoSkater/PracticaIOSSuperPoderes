@@ -40,6 +40,8 @@
 		D38661CD29D19255000F13D3 /* HeroeSeriesRowCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38661CC29D19255000F13D3 /* HeroeSeriesRowCellView.swift */; };
 		D38661CE29D19255000F13D3 /* HeroeSeriesRowCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38661CC29D19255000F13D3 /* HeroeSeriesRowCellView.swift */; };
 		D38661CF29D19255000F13D3 /* HeroeSeriesRowCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38661CC29D19255000F13D3 /* HeroeSeriesRowCellView.swift */; };
+		D3899F9729D841D4008743F7 /* HeroeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA4C1829D74CF4001AE13D /* HeroeCard.swift */; };
+		D3899F9829D841D4008743F7 /* HeroeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA4C1829D74CF4001AE13D /* HeroeCard.swift */; };
 		D38F607A29CAFFD20025125F /* PracticaIOSSuperPoderesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F607929CAFFD20025125F /* PracticaIOSSuperPoderesApp.swift */; };
 		D38F607C29CAFFD20025125F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F607B29CAFFD20025125F /* ContentView.swift */; };
 		D38F607E29CAFFD20025125F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38F607D29CAFFD20025125F /* Assets.xcassets */; };
@@ -51,6 +53,12 @@
 		D38F60AC29CB03AF0025125F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D38F60AF29CB03AF0025125F /* Localizable.strings */; };
 		D38F60AD29CB03AF0025125F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D38F60AF29CB03AF0025125F /* Localizable.strings */; };
 		D38F60B229CB04860025125F /* LocalizableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F60B129CB04860025125F /* LocalizableTest.swift */; };
+		D3A0153F29D2F2BA00E3880A /* SerieCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A0153E29D2F2BA00E3880A /* SerieCard.swift */; };
+		D3A0154029D2F2BA00E3880A /* SerieCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A0153E29D2F2BA00E3880A /* SerieCard.swift */; };
+		D3A0154129D2F2BA00E3880A /* SerieCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A0153E29D2F2BA00E3880A /* SerieCard.swift */; };
+		D3A0FD0229D33F9F000CE348 /* TitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A0FD0129D33F9F000CE348 /* TitleStyle.swift */; };
+		D3A0FD0329D33F9F000CE348 /* TitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A0FD0129D33F9F000CE348 /* TitleStyle.swift */; };
+		D3A0FD0429D33F9F000CE348 /* TitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A0FD0129D33F9F000CE348 /* TitleStyle.swift */; };
 		D3A6DA7E29CDC72A00452F39 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6DA7D29CDC72A00452F39 /* Networking.swift */; };
 		D3A6DA7F29CDC72A00452F39 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6DA7D29CDC72A00452F39 /* Networking.swift */; };
 		D3A6DA8029CDC72A00452F39 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6DA7D29CDC72A00452F39 /* Networking.swift */; };
@@ -61,6 +69,7 @@
 		D3C08A7129CF6D2000D96E56 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C08A7029CF6D2000D96E56 /* Status.swift */; };
 		D3C08A7229CF6D2000D96E56 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C08A7029CF6D2000D96E56 /* Status.swift */; };
 		D3C08A7329CF6D2000D96E56 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C08A7029CF6D2000D96E56 /* Status.swift */; };
+		D3DA4C1929D74CF4001AE13D /* HeroeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA4C1829D74CF4001AE13D /* HeroeCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,10 +116,13 @@
 		D38F60AE29CB03AF0025125F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D38F60B029CB03B50025125F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D38F60B129CB04860025125F /* LocalizableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableTest.swift; sourceTree = "<group>"; };
+		D3A0153E29D2F2BA00E3880A /* SerieCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerieCard.swift; sourceTree = "<group>"; };
+		D3A0FD0129D33F9F000CE348 /* TitleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleStyle.swift; sourceTree = "<group>"; };
 		D3A6DA7D29CDC72A00452F39 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		D3C08A6729CF69B500D96E56 /* Heroe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroe.swift; sourceTree = "<group>"; };
 		D3C08A6C29CF6CA700D96E56 /* HeroesTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesTableViewModel.swift; sourceTree = "<group>"; };
 		D3C08A7029CF6D2000D96E56 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		D3DA4C1829D74CF4001AE13D /* HeroeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +182,14 @@
 				D38661CC29D19255000F13D3 /* HeroeSeriesRowCellView.swift */,
 			);
 			path = HeroeSeriesView;
+			sourceTree = "<group>";
+		};
+		D3899F9929D84D86008743F7 /* HeroeSeriesViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D384DCA629D0E0C9003F4524 /* HeroeSeriesViewModel.swift */,
+			);
+			path = HeroeSeriesViewModel;
 			sourceTree = "<group>";
 		};
 		D38F606D29CAFFD20025125F = {
@@ -246,6 +266,16 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		D3A0153D29D2F27500E3880A /* ViewBlueprints */ = {
+			isa = PBXGroup;
+			children = (
+				D3A0153E29D2F2BA00E3880A /* SerieCard.swift */,
+				D3A0FD0129D33F9F000CE348 /* TitleStyle.swift */,
+				D3DA4C1829D74CF4001AE13D /* HeroeCard.swift */,
+			);
+			path = ViewBlueprints;
+			sourceTree = "<group>";
+		};
 		D3C08A6629CF696C00D96E56 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +291,7 @@
 			children = (
 				D384DC8B29D07BCD003F4524 /* BaseView */,
 				D3C08A6B29CF6C8400D96E56 /* HeroesTableViewModel */,
+				D3899F9929D84D86008743F7 /* HeroeSeriesViewModel */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -268,6 +299,7 @@
 		D3C08A6A29CF6C6B00D96E56 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D3A0153D29D2F27500E3880A /* ViewBlueprints */,
 				D38661C329D18F45000F13D3 /* HeroeSeriesView */,
 				D384DC8229D0632C003F4524 /* BaseView */,
 				D3C08A7429CF743400D96E56 /* HeroesList */,
@@ -279,7 +311,6 @@
 			isa = PBXGroup;
 			children = (
 				D3C08A6C29CF6CA700D96E56 /* HeroesTableViewModel.swift */,
-				D384DCA629D0E0C9003F4524 /* HeroeSeriesViewModel.swift */,
 			);
 			path = HeroesTableViewModel;
 			sourceTree = "<group>";
@@ -431,12 +462,15 @@
 				D384DC8D29D07BDD003F4524 /* BaseViewModel.swift in Sources */,
 				D3C08A6829CF69B500D96E56 /* Heroe.swift in Sources */,
 				D384DCA729D0E0C9003F4524 /* HeroeSeriesViewModel.swift in Sources */,
+				D3DA4C1929D74CF4001AE13D /* HeroeCard.swift in Sources */,
 				D384DC9729D0A0B8003F4524 /* Tool.swift in Sources */,
 				D384DCA329D0E030003F4524 /* Serie.swift in Sources */,
 				D384DC9129D090D6003F4524 /* LoadingView.swift in Sources */,
 				D384DC7829D04E04003F4524 /* HeroesRowCellView.swift in Sources */,
 				D38661CD29D19255000F13D3 /* HeroeSeriesRowCellView.swift in Sources */,
 				D3C08A6D29CF6CA700D96E56 /* HeroesTableViewModel.swift in Sources */,
+				D3A0FD0229D33F9F000CE348 /* TitleStyle.swift in Sources */,
+				D3A0153F29D2F2BA00E3880A /* SerieCard.swift in Sources */,
 				D384DC7F29D06260003F4524 /* HeroesListView.swift in Sources */,
 				D38F607C29CAFFD20025125F /* ContentView.swift in Sources */,
 				D38661C929D18FAB000F13D3 /* HeroeSeriesView.swift in Sources */,
@@ -457,13 +491,16 @@
 				D38661CE29D19255000F13D3 /* HeroeSeriesRowCellView.swift in Sources */,
 				D384DCA429D0E030003F4524 /* Serie.swift in Sources */,
 				D3C08A7229CF6D2000D96E56 /* Status.swift in Sources */,
+				D3899F9729D841D4008743F7 /* HeroeCard.swift in Sources */,
 				D384DC9229D090D6003F4524 /* LoadingView.swift in Sources */,
+				D3A0154029D2F2BA00E3880A /* SerieCard.swift in Sources */,
 				D38F60B229CB04860025125F /* LocalizableTest.swift in Sources */,
 				D384DC9829D0A0B8003F4524 /* Tool.swift in Sources */,
 				D38661CA29D18FAB000F13D3 /* HeroeSeriesView.swift in Sources */,
 				D384DCA829D0E0C9003F4524 /* HeroeSeriesViewModel.swift in Sources */,
 				D38F608C29CAFFD20025125F /* PracticaIOSSuperPoderesTests.swift in Sources */,
 				D3C08A6E29CF6CA700D96E56 /* HeroesTableViewModel.swift in Sources */,
+				D3A0FD0329D33F9F000CE348 /* TitleStyle.swift in Sources */,
 				D384DC8029D06260003F4524 /* HeroesListView.swift in Sources */,
 				D384DC8529D075DA003F4524 /* BaseView.swift in Sources */,
 				D384DC8829D07683003F4524 /* EnumTest.swift in Sources */,
@@ -478,12 +515,15 @@
 				D384DC8F29D07BDD003F4524 /* BaseViewModel.swift in Sources */,
 				D384DC7A29D04E04003F4524 /* HeroesRowCellView.swift in Sources */,
 				D384DCA929D0E0C9003F4524 /* HeroeSeriesViewModel.swift in Sources */,
+				D3899F9829D841D4008743F7 /* HeroeCard.swift in Sources */,
 				D384DC9929D0A0B8003F4524 /* Tool.swift in Sources */,
 				D384DCA529D0E030003F4524 /* Serie.swift in Sources */,
 				D384DC9329D090D6003F4524 /* LoadingView.swift in Sources */,
 				D3C08A7329CF6D2000D96E56 /* Status.swift in Sources */,
 				D38661CF29D19255000F13D3 /* HeroeSeriesRowCellView.swift in Sources */,
 				D38F609829CAFFD30025125F /* PracticaIOSSuperPoderesUITestsLaunchTests.swift in Sources */,
+				D3A0FD0429D33F9F000CE348 /* TitleStyle.swift in Sources */,
+				D3A0154129D2F2BA00E3880A /* SerieCard.swift in Sources */,
 				D38F609629CAFFD30025125F /* PracticaIOSSuperPoderesUITests.swift in Sources */,
 				D384DC8A29D07893003F4524 /* Heroe.swift in Sources */,
 				D38661CB29D18FAB000F13D3 /* HeroeSeriesView.swift in Sources */,

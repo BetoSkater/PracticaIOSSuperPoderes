@@ -28,9 +28,14 @@ final class Tool{
         let url = URL(string: "\(thumbnail.path)/\(aspectRatio.rawValue).\(thumbnail.thumbnailExtension)")!
         debugPrint(url)
         return url
-        
-        
+
     }
     
+    //Method to retrieve one specific localized string.
+    func localizeThisString(this value:String, in language:String) -> String{
+        let path = Bundle.main.path(forResource: language, ofType: "lproj")
+        let languageBundle = Bundle(path: path!)
+        return languageBundle!.localizedString(forKey: value, value: nil, table: nil)
+    }
     
 }

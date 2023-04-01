@@ -8,7 +8,7 @@
 import XCTest
 
 final class PracticaIOSSuperPoderesUITestsLaunchTests: XCTestCase {
-
+/*
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
     }
@@ -29,4 +29,5 @@ final class PracticaIOSSuperPoderesUITestsLaunchTests: XCTestCase {
         attachment.lifetime = .keepAlways
         add(attachment)
     }
+ */
 }

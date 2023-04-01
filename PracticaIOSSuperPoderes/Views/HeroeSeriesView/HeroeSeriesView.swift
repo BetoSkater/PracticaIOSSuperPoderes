@@ -20,11 +20,12 @@ struct HeroeSeriesView: View {
             List{
                 if let heroeSeries =  heroesSeriesViewModel.series {
                     ForEach(heroeSeries) { series in
-                        NavigationLink {
-                            //To series detail view
-                        } label: {
-                            HeroeSeriesRowCellView(heroeSerie: series)
-                        }
+                        HeroeSeriesRowCellView(heroeSerie: series)
+//                        NavigationLink {
+//                            //To series detail view
+//                        } label: {
+//                            HeroeSeriesRowCellView(heroeSerie: series)
+//                        }
 
                     }
                 }
@@ -32,6 +33,8 @@ struct HeroeSeriesView: View {
                
             }
         }
+        .navigationTitle("Series List")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

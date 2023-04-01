@@ -12,44 +12,39 @@ struct HeroesRowCellView: View {
     var heroe: Heroe
     
     var body: some View {
-        ZStack {
-            Rectangle()
-                .fill(.gray.shadow(.drop( color: .black, radius: 100)))
-               
-                .frame(height: 350)
-                //TODO: fix the shadows
-                .shadow(color: .black, radius: 10 )
-               //http://i.annihil.us/u/prod/marvel/i/mg/1/10/622795c13e687/portrait_uncanny.jpg
-                //"\(heroe.thumbnail.path)/portrait_xlarge.\(heroe.thumbnail.thumbnailExtension)"
-            VStack{
-                AsyncImage(url: Tool.shared.ThumbnailToURLConverter(this: heroe.thumbnail, withAspect: .portraitUncanny)) {Image in
-                    Image
-                        .resizable()
-                        .frame(width:300 ,height: 250)
-                       
-                        .aspectRatio(contentMode: .fill)
-                        
-                        .cornerRadius(20)
-                       
-                        .padding()
-                } placeholder: {
-                    Image(systemName: "person")
-                }
-                Text(heroe.name)
-                    .font(.title)
-                    .bold()
-                    .foregroundColor(.white)
-            }
-            .frame(height: 325)
-            .cornerRadius(25)
-            .padding()
-            
-                
-           
-        }
-        .cornerRadius(24)
-        .padding()
-        
+        HeroeCard(content: {
+            ZStack{}
+        }, heroe: heroe)
+//        ZStack {
+//            Rectangle()
+//                .fill(Color(.lightGray))
+//                .frame(height: 350)
+//
+//            VStack{
+//                AsyncImage(url: Tool.shared.ThumbnailToURLConverter(this: heroe.thumbnail, withAspect: .portraitUncanny)) {Image in
+//                    Image
+//                        .resizable()
+//                        .frame(width:300 ,height: 250)
+//                        .aspectRatio(contentMode: .fill)
+//                        .cornerRadius(20)
+//                        .padding()
+//
+//                } placeholder: {
+//                    Image(systemName: "person")
+//                }
+//
+//                TitleStyle{
+//                    Text(heroe.name)
+//                        .padding(.top, -20)
+//                }
+//            }
+//            .frame(height: 325)
+//            .cornerRadius(30)
+//            .padding()
+//        }
+//        .cornerRadius(30)
+//        .padding()
+//
     }
 }
 
