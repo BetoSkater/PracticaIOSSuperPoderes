@@ -17,14 +17,10 @@ struct TitleStyle<Content:View> :View{
     }
     
     var body: some View{
-        
         content
             .font(.title)
             .bold()
             .foregroundColor(.black)
             .padding()
-        
     }
-    
-    
 }

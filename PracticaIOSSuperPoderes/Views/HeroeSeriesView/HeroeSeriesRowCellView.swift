@@ -12,7 +12,7 @@ struct HeroeSeriesRowCellView: View {
     var heroeSerie: Serie
     
     var body: some View {
-        SerieCardTwo(content: {
+        SerieCard(content: {
             ZStack{}
         }, serie: heroeSerie)
         

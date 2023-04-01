@@ -28,7 +28,7 @@ struct HeroeCard<Content: View> : View{
                 AsyncImage(url: Tool.shared.ThumbnailToURLConverter(this: heroe.thumbnail, withAspect: .portraitUncanny)) {Image in
                     Image
                         .resizable()
-                       // .frame(width:225 ,height: 175)
+                    // .frame(width:225 ,height: 175)
                         .frame(height: 175)
                         .aspectRatio(contentMode: .fill)
                         .cornerRadius(20)
@@ -45,8 +45,6 @@ struct HeroeCard<Content: View> : View{
             .cornerRadius(30)
         }
         .cornerRadius(30)
-       // .background(.red)
         .frame(height: 250)
-       // .padding()
     }
 }
