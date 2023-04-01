@@ -63,6 +63,7 @@ struct SerieCardTwo<Content: View> : View{
                 Text(serie.title)
                     .background(.white.opacity(0.5))
                     .cornerRadius(10)
+                    .padding()
  
             }
         }

@@ -22,29 +22,45 @@ struct DataClassSeries: Codable {
     let results: [Serie]
 }
 
+//// MARK: - Result
+//struct Serie: Codable, Identifiable {
+//    let id: Int
+//    let title: String
+//    let description: String?
+//    let resourceURI: String?
+//    let urls: [URLElement]?
+//    let startYear, endYear: Int?
+//    let rating, type: String?
+//    let modified: String?
+//    let thumbnail: Thumbnail?
+//    let creators: Creators?
+//    let characters: Characters?
+//    let stories: Stories?
+//    let comics, events: Characters?
+//    let next, previous: JSONNull?
+//}
 // MARK: - Result
 struct Serie: Codable, Identifiable {
     let id: Int
     let title: String
     let description: String?
-    let resourceURI: String
-    let urls: [URLElement]
-    let startYear, endYear: Int
-    let rating, type: String
-    let modified: String
+  //  let resourceURI: String?
+  //  let urls: [URLElement]?
+  //  let startYear, endYear: Int?
+  //  let rating, type: String?
+  //  let modified: String?
     let thumbnail: Thumbnail
-    let creators: Creators
-    let characters: Characters
-    let stories: Stories
-    let comics, events: Characters
-    let next, previous: JSONNull?
+   // let creators: Creators?
+  //  let characters: Characters?
+   // let stories: Stories?
+   // let comics, events: Characters?
+   // let next, previous: JSONNull?
 }
-
 // MARK: - Characters
 struct Characters: Codable {
     let available: Int
     let collectionURI: String
-    let items: [CharactersItem]
+    let items: [CharactersItem]?
     let returned: Int
 }
 
@@ -58,7 +74,7 @@ struct CharactersItem: Codable {
 struct Creators: Codable {
     let available: Int
     let collectionURI: String
-    let items: [CreatorsItem]
+    let items: [CreatorsItem]?
     let returned: Int
 }
 
@@ -88,9 +104,9 @@ enum TypeEnum: String, Codable {
     case interiorStory = "interiorStory"
 }
  */
-/*
+
 // MARK: - Thumbnail
-struct Thumbnail: Codable {
+struct ThumbnailSerie: Codable {
     let path: String
     let thumbnailExtension: String
 
@@ -99,7 +115,7 @@ struct Thumbnail: Codable {
         case thumbnailExtension = "extension"
     }
 }
-*/
+
 /*
 // MARK: - URLElement
 struct URLElement: Codable {

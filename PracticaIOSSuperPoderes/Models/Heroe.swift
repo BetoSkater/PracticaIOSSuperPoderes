@@ -27,21 +27,35 @@ struct DataClass: Codable{
     let results: [Heroe]
 }
  //MARK: - Heroe -
+//struct Heroe: Codable, Identifiable{
+//    let id: Int
+//    let name: String
+//    let description: String
+//    let modified: String
+//    //let modified: Date //TODO: With date, it gives an Error, with String it works perfectly
+//    let thumbnail: Thumbnail
+//    let resourceURI: String
+//    let comics: Comics
+//    let series: Comics
+//    let stories: Stories
+//    let events: Comics
+//    let urls: [URLElement]
+//}
+//MARK: - Heroe -
 struct Heroe: Codable, Identifiable{
-    let id: Int
-    let name: String
-    let description: String
-    let modified: String
-    //let modified: Date //TODO: With date, it gives an Error, with String it works perfectly
-    let thumbnail: Thumbnail
-    let resourceURI: String
-    let comics: Comics
-    let series: Comics
-    let stories: Stories
-    let events: Comics
-    let urls: [URLElement]
+   let id: Int
+   let name: String
+   let description: String
+  // let modified: String
+   //let modified: Date //TODO: With date, it gives an Error, with String it works perfectly
+   let thumbnail: Thumbnail
+//   let resourceURI: String
+//   let comics: Comics
+//   let series: Comics
+//   let stories: Stories
+//   let events: Comics
+//   let urls: [URLElement]
 }
-
 // MARK: - Comics
 struct Comics: Codable {
     let available: Int
@@ -68,7 +82,7 @@ struct Stories: Codable {
 struct StoriesItem: Codable {
     let resourceURI: String
     let name: String
-    let type: ItemType
+    let type: ItemType?
 }
 
 enum ItemType: String, Codable {
@@ -80,7 +94,7 @@ enum ItemType: String, Codable {
 // MARK: - Thumbnail
 struct Thumbnail: Codable {
     let path: String
-    let thumbnailExtension: Extension
+    let thumbnailExtension: Extension?
 
     enum CodingKeys: String, CodingKey {
         case path
@@ -94,7 +108,7 @@ enum Extension: String, Codable {
 
 // MARK: - URLElement
 struct URLElement: Codable {
-    let type: URLType
+    let type: URLType?
     let url: String
 }
 
