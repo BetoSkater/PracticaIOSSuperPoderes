@@ -34,6 +34,7 @@ struct HeroesListView: View {
                         }
                     }
                 }
+                .padding(.leading, -10)
 //.padding(.top, -30)
               
             }//TODO: solve the problem with the title, I think that It can't be done this way

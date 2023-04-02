@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D34F016E29D9BC8900E1AC92 /* PracticaIOSSuperPoderesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F607929CAFFD20025125F /* PracticaIOSSuperPoderesApp.swift */; };
+		D3672F2C29D9B5A300471DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3672F2B29D9B5A300471DF8 /* Assets.xcassets */; };
+		D3672F2F29D9B5A300471DF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3672F2E29D9B5A300471DF8 /* Preview Assets.xcassets */; };
+		D3672F3229D9B5A300471DF8 /* watchOSSupport Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D3672F2529D9B5A300471DF8 /* watchOSSupport Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D3672F3729D9B5F700471DF8 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC9629D0A0B8003F4524 /* Tool.swift */; };
+		D3672F3829D9B60200471DF8 /* SerieCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A0153E29D2F2BA00E3880A /* SerieCard.swift */; };
+		D3672F3929D9B60500471DF8 /* TitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A0FD0129D33F9F000CE348 /* TitleStyle.swift */; };
+		D3672F3A29D9B60700471DF8 /* HeroeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA4C1829D74CF4001AE13D /* HeroeCard.swift */; };
+		D3672F3B29D9B60B00471DF8 /* HeroeSeriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38661C829D18FAB000F13D3 /* HeroeSeriesView.swift */; };
+		D3672F3C29D9B60D00471DF8 /* HeroeSeriesRowCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38661CC29D19255000F13D3 /* HeroeSeriesRowCellView.swift */; };
+		D3672F3D29D9B61000471DF8 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC8329D075DA003F4524 /* BaseView.swift */; };
+		D3672F3E29D9B61200471DF8 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC9029D090D6003F4524 /* LoadingView.swift */; };
+		D3672F3F29D9B61500471DF8 /* HeroesRowCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC7729D04E04003F4524 /* HeroesRowCellView.swift */; };
+		D3672F4029D9B61800471DF8 /* HeroesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC7E29D06260003F4524 /* HeroesListView.swift */; };
+		D3672F4129D9B61C00471DF8 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC8C29D07BDD003F4524 /* BaseViewModel.swift */; };
+		D3672F4229D9B62100471DF8 /* HeroesTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C08A6C29CF6CA700D96E56 /* HeroesTableViewModel.swift */; };
+		D3672F4329D9B62400471DF8 /* HeroeSeriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DCA629D0E0C9003F4524 /* HeroeSeriesViewModel.swift */; };
+		D3672F4429D9B62800471DF8 /* Heroe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C08A6729CF69B500D96E56 /* Heroe.swift */; };
+		D3672F4529D9B62A00471DF8 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C08A7029CF6D2000D96E56 /* Status.swift */; };
+		D3672F4629D9B62D00471DF8 /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DCA229D0E030003F4524 /* Serie.swift */; };
+		D3672F4729D9B63000471DF8 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6DA7D29CDC72A00452F39 /* Networking.swift */; };
+		D3672F4929D9B63F00471DF8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D38F60AF29CB03AF0025125F /* Localizable.strings */; };
 		D384DC7829D04E04003F4524 /* HeroesRowCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC7729D04E04003F4524 /* HeroesRowCellView.swift */; };
 		D384DC7929D04E04003F4524 /* HeroesRowCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC7729D04E04003F4524 /* HeroesRowCellView.swift */; };
 		D384DC7A29D04E04003F4524 /* HeroesRowCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D384DC7729D04E04003F4524 /* HeroesRowCellView.swift */; };
@@ -77,6 +99,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D3672F3029D9B5A300471DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D38F606E29CAFFD20025125F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3672F2429D9B5A300471DF8;
+			remoteInfo = "watchOSSupport Watch App";
+		};
 		D38F608829CAFFD20025125F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D38F606E29CAFFD20025125F /* Project object */;
@@ -93,7 +122,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D3672F3329D9B5A300471DF8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D3672F3229D9B5A300471DF8 /* watchOSSupport Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D3672F2529D9B5A300471DF8 /* watchOSSupport Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchOSSupport Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3672F2B29D9B5A300471DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3672F2E29D9B5A300471DF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D384DC7729D04E04003F4524 /* HeroesRowCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesRowCellView.swift; sourceTree = "<group>"; };
 		D384DC7B29D05AD3003F4524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D384DC7E29D06260003F4524 /* HeroesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesListView.swift; sourceTree = "<group>"; };
@@ -106,6 +152,7 @@
 		D384DCA629D0E0C9003F4524 /* HeroeSeriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeSeriesViewModel.swift; sourceTree = "<group>"; };
 		D38661C829D18FAB000F13D3 /* HeroeSeriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeSeriesView.swift; sourceTree = "<group>"; };
 		D38661CC29D19255000F13D3 /* HeroeSeriesRowCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeSeriesRowCellView.swift; sourceTree = "<group>"; };
+		D386D51B29D9BEFA0089EFF8 /* watchOSSupport-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "watchOSSupport-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D3899F9A29D8A55D008743F7 /* ModelsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsTest.swift; sourceTree = "<group>"; };
 		D3899F9C29D8B635008743F7 /* ToolTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolTest.swift; sourceTree = "<group>"; };
 		D38F607629CAFFD20025125F /* PracticaIOSSuperPoderes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticaIOSSuperPoderes.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +180,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D3672F2229D9B5A300471DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D38F607329CAFFD20025125F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -158,6 +212,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3672F2629D9B5A300471DF8 /* watchOSSupport Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				D386D51B29D9BEFA0089EFF8 /* watchOSSupport-Watch-App-Info.plist */,
+				D3672F2B29D9B5A300471DF8 /* Assets.xcassets */,
+				D3672F2D29D9B5A300471DF8 /* Preview Content */,
+			);
+			path = "watchOSSupport Watch App";
+			sourceTree = "<group>";
+		};
+		D3672F2D29D9B5A300471DF8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3672F2E29D9B5A300471DF8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		D384DC8229D0632C003F4524 /* BaseView */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +278,7 @@
 				D38F607829CAFFD20025125F /* PracticaIOSSuperPoderes */,
 				D38F608A29CAFFD20025125F /* PracticaIOSSuperPoderesTests */,
 				D38F609429CAFFD30025125F /* PracticaIOSSuperPoderesUITests */,
+				D3672F2629D9B5A300471DF8 /* watchOSSupport Watch App */,
 				D38F607729CAFFD20025125F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -216,6 +289,7 @@
 				D38F607629CAFFD20025125F /* PracticaIOSSuperPoderes.app */,
 				D38F608729CAFFD20025125F /* PracticaIOSSuperPoderesTests.xctest */,
 				D38F609129CAFFD30025125F /* PracticaIOSSuperPoderesUITests.xctest */,
+				D3672F2529D9B5A300471DF8 /* watchOSSupport Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -338,6 +412,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D3672F2429D9B5A300471DF8 /* watchOSSupport Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3672F3629D9B5A300471DF8 /* Build configuration list for PBXNativeTarget "watchOSSupport Watch App" */;
+			buildPhases = (
+				D3672F2129D9B5A300471DF8 /* Sources */,
+				D3672F2229D9B5A300471DF8 /* Frameworks */,
+				D3672F2329D9B5A300471DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchOSSupport Watch App";
+			productName = "watchOSSupport Watch App";
+			productReference = D3672F2529D9B5A300471DF8 /* watchOSSupport Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D38F607529CAFFD20025125F /* PracticaIOSSuperPoderes */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D38F609B29CAFFD30025125F /* Build configuration list for PBXNativeTarget "PracticaIOSSuperPoderes" */;
@@ -345,10 +436,12 @@
 				D38F607229CAFFD20025125F /* Sources */,
 				D38F607329CAFFD20025125F /* Frameworks */,
 				D38F607429CAFFD20025125F /* Resources */,
+				D3672F3329D9B5A300471DF8 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D3672F3129D9B5A300471DF8 /* PBXTargetDependency */,
 			);
 			name = PracticaIOSSuperPoderes;
 			productName = PracticaIOSSuperPoderes;
@@ -404,6 +497,9 @@
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
+					D3672F2429D9B5A300471DF8 = {
+						CreatedOnToolsVersion = 14.1;
+					};
 					D38F607529CAFFD20025125F = {
 						CreatedOnToolsVersion = 14.1;
 					};
@@ -437,11 +533,22 @@
 				D38F607529CAFFD20025125F /* PracticaIOSSuperPoderes */,
 				D38F608629CAFFD20025125F /* PracticaIOSSuperPoderesTests */,
 				D38F609029CAFFD30025125F /* PracticaIOSSuperPoderesUITests */,
+				D3672F2429D9B5A300471DF8 /* watchOSSupport Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D3672F2329D9B5A300471DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3672F2F29D9B5A300471DF8 /* Preview Assets.xcassets in Resources */,
+				D3672F4929D9B63F00471DF8 /* Localizable.strings in Resources */,
+				D3672F2C29D9B5A300471DF8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D38F607429CAFFD20025125F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -471,6 +578,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D3672F2129D9B5A300471DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3672F4729D9B63000471DF8 /* Networking.swift in Sources */,
+				D3672F3C29D9B60D00471DF8 /* HeroeSeriesRowCellView.swift in Sources */,
+				D3672F4229D9B62100471DF8 /* HeroesTableViewModel.swift in Sources */,
+				D3672F3929D9B60500471DF8 /* TitleStyle.swift in Sources */,
+				D3672F4529D9B62A00471DF8 /* Status.swift in Sources */,
+				D3672F3829D9B60200471DF8 /* SerieCard.swift in Sources */,
+				D3672F3E29D9B61200471DF8 /* LoadingView.swift in Sources */,
+				D3672F4029D9B61800471DF8 /* HeroesListView.swift in Sources */,
+				D3672F3729D9B5F700471DF8 /* Tool.swift in Sources */,
+				D3672F3B29D9B60B00471DF8 /* HeroeSeriesView.swift in Sources */,
+				D3672F4129D9B61C00471DF8 /* BaseViewModel.swift in Sources */,
+				D3672F4429D9B62800471DF8 /* Heroe.swift in Sources */,
+				D3672F3F29D9B61500471DF8 /* HeroesRowCellView.swift in Sources */,
+				D3672F3D29D9B61000471DF8 /* BaseView.swift in Sources */,
+				D34F016E29D9BC8900E1AC92 /* PracticaIOSSuperPoderesApp.swift in Sources */,
+				D3672F4629D9B62D00471DF8 /* Serie.swift in Sources */,
+				D3672F4329D9B62400471DF8 /* HeroeSeriesViewModel.swift in Sources */,
+				D3672F3A29D9B60700471DF8 /* HeroeCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D38F607229CAFFD20025125F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -556,6 +688,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D3672F3129D9B5A300471DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3672F2429D9B5A300471DF8 /* watchOSSupport Watch App */;
+			targetProxy = D3672F3029D9B5A300471DF8 /* PBXContainerItemProxy */;
+		};
 		D38F608929CAFFD20025125F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D38F607529CAFFD20025125F /* PracticaIOSSuperPoderes */;
@@ -581,6 +718,67 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D3672F3429D9B5A300471DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchOSSupport Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "watchOSSupport-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = watchOSSupport;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = AlbertoJR.PracticaIOSSuperPoderes;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlbertoJR.PracticaIOSSuperPoderes.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		D3672F3529D9B5A300471DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchOSSupport Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "watchOSSupport-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = watchOSSupport;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = AlbertoJR.PracticaIOSSuperPoderes;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlbertoJR.PracticaIOSSuperPoderes.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
 		D38F609929CAFFD30025125F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -693,6 +891,7 @@
 		D38F609C29CAFFD30025125F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = PracticaIOSSuperPoderes/PracticaIOSSuperPoderes.entitlements;
@@ -730,6 +929,7 @@
 		D38F609D29CAFFD30025125F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = PracticaIOSSuperPoderes/PracticaIOSSuperPoderes.entitlements;
@@ -853,6 +1053,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D3672F3629D9B5A300471DF8 /* Build configuration list for PBXNativeTarget "watchOSSupport Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3672F3429D9B5A300471DF8 /* Debug */,
+				D3672F3529D9B5A300471DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D38F607129CAFFD20025125F /* Build configuration list for PBXProject "PracticaIOSSuperPoderes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
