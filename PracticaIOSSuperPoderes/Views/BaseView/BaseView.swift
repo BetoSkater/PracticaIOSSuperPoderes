@@ -16,11 +16,11 @@ struct BaseView: View {
         case .none:
             Text("Status:.none")
         case .loading:
-          //  Text("Status: .loading")
             LoadingView()
-        case .loaded:
+        case .loadedHeroes:
             HeroesListView(heroesViewModel: baseViewModel)
-            
+        case .loadedSeries:
+            Text("It does not work due to the viewModel")
         case .error(errorMsg: let errorMessage):
             Text("Status: .error. --> \(errorMessage)")
         }

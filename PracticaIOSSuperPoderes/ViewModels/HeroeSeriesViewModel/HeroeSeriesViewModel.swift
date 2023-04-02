@@ -51,6 +51,7 @@ final class HeroeSeriesViewModel: ObservableObject{
                         debugPrint("Error. failure")
                     case .finished:
                         debugPrint("Success!")
+                        self.status = .loadedHeroes
                     }
                 } receiveValue: { seriesResult in
                     self.series = seriesResult.data.results

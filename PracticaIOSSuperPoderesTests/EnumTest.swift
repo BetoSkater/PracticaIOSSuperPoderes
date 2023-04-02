@@ -19,15 +19,15 @@ final class EnumTest: XCTestCase {
 
     
     func testStatesEnum() throws{
-        let states: [Status] = [.none,.loaded,.loading,.error(errorMsg: "Testing Error Message")]
+        let states: [Status] = [.none,.loadedHeroes,.loadedSeries,.loading,.error(errorMsg: "Testing Error Message")]
         
         XCTAssertNotNil(states)
         
         XCTAssertEqual(states[0], .none)
-        XCTAssertEqual(states[2], .loading)
+        XCTAssertEqual(states[3], .loading)
         
         XCTAssertNotEqual(states[1], .none)
-        XCTAssertNotEqual(states[3], .loaded)
+        XCTAssertNotEqual(states[3], .loadedHeroes)
         
         XCTAssertNotEqual(states[3], .error(errorMsg: "Test Error"))
     
