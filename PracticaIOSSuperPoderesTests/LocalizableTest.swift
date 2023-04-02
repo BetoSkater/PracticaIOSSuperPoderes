@@ -29,12 +29,7 @@ final class LocalizableTest: XCTestCase {
         loadStoredValues(for: "es")
     }
 
-//    //Method to retrieve one specific localized string.
-//    func localizeThisString(this value:String, in language:String) -> String{
-//        let path = Bundle.main.path(forResource: language, ofType: "lproj")
-//        let languageBundle = Bundle(path: path!)
-//        return languageBundle!.localizedString(forKey: value, value: nil, table: nil)
-//    }
+
     func loadStoredValues(for language:String){
         if language == "es"{
             esStrings["Loading"] = Tool.shared.localizeThisString(this: "Loading", in: "es")

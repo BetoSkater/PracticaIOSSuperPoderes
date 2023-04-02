@@ -24,6 +24,7 @@ struct HeroeCard<Content: View> : View{
             Rectangle()
                 .fill(Color(.lightGray))
                 .frame(height: 250)
+                .id(0)
             VStack{
                 AsyncImage(url: Tool.shared.ThumbnailToURLConverter(this: heroe.thumbnail, withAspect: .portraitUncanny)) {Image in
                     Image
@@ -36,9 +37,11 @@ struct HeroeCard<Content: View> : View{
                 } placeholder: {
                     Image(systemName: "person")
                 }
+                .id(1)
                 TitleStyle{
                     Text(heroe.name)
                         .padding(.top, -25)
+                        .id(2)
                 }
             }
             .frame(height: 225)

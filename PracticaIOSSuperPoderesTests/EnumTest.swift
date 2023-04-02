@@ -30,7 +30,7 @@ final class EnumTest: XCTestCase {
         XCTAssertNotEqual(states[3], .loaded)
         
         XCTAssertNotEqual(states[3], .error(errorMsg: "Test Error"))
-    //    XCTAssertThrowsError(try states[3])
+    
         
     }
 

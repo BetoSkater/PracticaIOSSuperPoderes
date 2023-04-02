@@ -35,7 +35,7 @@ final class HeroeSeriesViewModel: ObservableObject{
             URLSession.shared.dataTaskPublisher(for: Networking.shared.getHeroeSeries(with: heroe.id, sortBy: .startYear))
                 .tryMap {
                     guard let response = $0.response as? HTTPURLResponse, response.statusCode == 200 else{
-                        debugPrint("URL: \($0.response.url)")
+                       // debugPrint("URL: \($0.response.url)")
                         
                         throw URLError(.badServerResponse)
                         

@@ -11,10 +11,12 @@ struct LoadingView: View {
     var body: some View {
         ProgressView(label: {
             Text("Loading")
+                .id(0)
         })
          //   .progressViewStyle(LinearProgressViewStyle(tint: .red))
         .progressViewStyle(CircularProgressViewStyle(tint: .red))
         .foregroundColor(.red)
+        .id(1)
         
             
     }

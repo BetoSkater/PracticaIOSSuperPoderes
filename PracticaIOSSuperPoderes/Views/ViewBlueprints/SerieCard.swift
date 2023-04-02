@@ -30,12 +30,13 @@ struct SerieCard<Content: View> : View{
                 } placeholder: {
                     Image(systemName: "photo.artframe")
                 }
+                .id(0)
                 Text(serie.description ?? Tool.shared.localizeThisString(this: "DescriptionNil", in: (localizedLanguage.language.languageCode?.identifier)!))
                     .frame(height: 100)
-                //.background(Color.white)
                     .lineLimit(3)
                     .padding()
                     .padding(.top,-30)
+                    .id(1)
             }
             .opacity(0.6)
             
@@ -44,6 +45,7 @@ struct SerieCard<Content: View> : View{
                     .background(.white.opacity(0.5))
                     .cornerRadius(10)
                     .padding()
+                    .id(2)
             }
         }
         .frame(height: 600)
