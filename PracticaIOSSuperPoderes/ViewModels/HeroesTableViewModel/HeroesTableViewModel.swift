@@ -24,10 +24,8 @@ final class HeroesTableViewModel: ObservableObject{
         }
     }
     
-    
     func getHeroes(sortBy order: OrderBy){
         self.status = .loading
-        
         URLSession.shared.dataTaskPublisher(for: Networking.shared.getMarvelHeroes(sortBy: .formerModified))
             .tryMap {
                 guard let response = $0.response as? HTTPURLResponse, response.statusCode == 200 else{
@@ -46,23 +44,18 @@ final class HeroesTableViewModel: ObservableObject{
                     self.status = .error(errorMsg: "Error: Failure at retrieven the heroes")
                 case.finished:
                     debugPrint("Completrion . finished")
-                    self.status = .loaded
-                    
+                    self.status = .loadedHeroes
                 }
             } receiveValue: { requestData in
                 self.heroes = requestData.data.results
             }
             .store(in: &suscriptors)
-
     }
     
     func testingHeroes() -> (){
         let heroe1 = Heroe(id: 95865, name: "Ramonchu", description: "Ram", thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available", thumbnailExtension: .jpg))
         let heroe2 = Heroe(id: 295865, name: "Ramonchu2", description: "Ram2", thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available", thumbnailExtension: .jpg))
         
-//        let heroe1 = Heroe(id: 54534, name: "prueba", description: "prueba", modified: "Date().self", thumbnail: Thumbnail(path: "thubpath", thumbnailExtension: .jpg), resourceURI: "prueba", comics: Comics(available: -5, collectionURI: "prueba", items: [], returned: -1), series: Comics(available: -1, collectionURI: "Prueba", items: [], returned: -1), stories: Stories(available: -1, collectionURI: "prueba", items: [], returned: -1), events: Comics(available: -1, collectionURI: "Prueba", items: [], returned: -1), urls: [])
-//        let heroe2 = Heroe(id: 54534, name: "prueba", description: "prueba", modified: "Date().self", thumbnail: Thumbnail(path: "thubpath", thumbnailExtension: .jpg), resourceURI: "prueba", comics: Comics(available: -5, collectionURI: "prueba", items: [], returned: -1), series: Comics(available: -1, collectionURI: "Prueba", items: [], returned: -1), stories: Stories(available: -1, collectionURI: "prueba", items: [], returned: -1), events: Comics(available: -1, collectionURI: "Prueba", items: [], returned: -1), urls: [])
-//
         self.heroes = [heroe1, heroe2]
     }
 }

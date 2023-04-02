@@ -8,5 +8,5 @@
 import Foundation
 
 enum Status: Equatable{
-    case none, loading, loaded, error(errorMsg: String)
+    case none, loading, loadedHeroes, loadedSeries, error(errorMsg: String)
 }

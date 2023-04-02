@@ -20,7 +20,7 @@ final class LocalizableTest: XCTestCase {
                                          "Error":"Error",
                                          "MarvelHeroesList":"Personajes de Marvel"]
     
-    
+    ///SetUp method to load some localized strings in two languages,
     override func setUp(){
         super.setUp()
         //English
@@ -28,8 +28,8 @@ final class LocalizableTest: XCTestCase {
         //Spanish
         loadStoredValues(for: "es")
     }
-
-
+    
+    ///Method used to load the localized strings in spanish, english or in the default language.
     func loadStoredValues(for language:String){
         if language == "es"{
             esStrings["Loading"] = Tool.shared.localizeThisString(this: "Loading", in: "es")
@@ -41,19 +41,11 @@ final class LocalizableTest: XCTestCase {
             enStrings["MarvelHeroesList"] = Tool.shared.localizeThisString(this: "MarvelHeroesList", in: "en")
         }
     }
-    
-    override func tearDown(){
-        //TODO: remove from memory
-    }
-
+    ///Method that actually test the localized english strings.
     func testEnglish(){
         XCTAssertEqual(enStrings["Loading"], enTestStrings["Loading"])
         XCTAssertEqual(enStrings["Error"], enTestStrings["Error"])
         XCTAssertEqual(enStrings["MarvelHeroesList"], enTestStrings["MarvelHeroesList"])
-
         XCTAssertNotEqual(enStrings["Loading"], esTestStrings["Loading"])
-
     }
-  
-
 }

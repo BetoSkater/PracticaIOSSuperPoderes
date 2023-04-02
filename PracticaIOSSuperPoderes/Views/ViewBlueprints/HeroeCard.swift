@@ -20,6 +20,40 @@ struct HeroeCard<Content: View> : View{
     }
     
     var body: some View{
+    #if os(watchOS)
+        ZStack {
+            Rectangle()
+                .fill(Color(.lightGray))
+                .frame(height: 200)
+                .id(0)
+            VStack{
+                AsyncImage(url: Tool.shared.ThumbnailToURLConverter(this: heroe.thumbnail, withAspect: .portraitUncanny)) {Image in
+                    Image
+                        .resizable()
+                        .frame(height: 140)
+                        .aspectRatio(contentMode: .fill)
+                        .cornerRadius(30)
+                        .padding()
+                } placeholder: {
+                    Image(systemName: "person")
+                        .resizable()
+                        .frame(height: 140)
+                        .padding()
+                }
+                .id(1)
+                TitleStyle{
+                    Text(heroe.name)
+                        .padding(.top, -15)
+                        .id(2)
+                }
+            }
+            .frame(height: 200)
+            .cornerRadius(30)
+        }
+        .cornerRadius(30)
+        .frame(height: 200)
+        
+    #else
         ZStack {
             Rectangle()
                 .fill(Color(.lightGray))
@@ -29,13 +63,17 @@ struct HeroeCard<Content: View> : View{
                 AsyncImage(url: Tool.shared.ThumbnailToURLConverter(this: heroe.thumbnail, withAspect: .portraitUncanny)) {Image in
                     Image
                         .resizable()
-                    // .frame(width:225 ,height: 175)
                         .frame(height: 175)
                         .aspectRatio(contentMode: .fill)
-                        .cornerRadius(20)
+                        .cornerRadius(30)
                         .padding()
                 } placeholder: {
                     Image(systemName: "person")
+                        .resizable()
+                        .frame(height: 175)
+                        .aspectRatio(contentMode: .fill)
+                        .cornerRadius(30)
+                        .padding()
                 }
                 .id(1)
                 TitleStyle{
@@ -49,5 +87,7 @@ struct HeroeCard<Content: View> : View{
         }
         .cornerRadius(30)
         .frame(height: 250)
+        
+    #endif
     }
 }

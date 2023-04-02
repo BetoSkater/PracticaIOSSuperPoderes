@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 /// Enum that contains different images sizes. Needed to create the image URL of a picture.
 enum ImageAspectRatio:String{
     case portraitSmall = "portrait_small"
@@ -43,5 +42,4 @@ final class Tool{
         let languageBundle = Bundle(path: path!)
         return languageBundle!.localizedString(forKey: value, value: nil, table: nil)
     }
-    
 }
