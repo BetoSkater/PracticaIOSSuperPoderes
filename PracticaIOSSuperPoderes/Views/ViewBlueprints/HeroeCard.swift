@@ -61,14 +61,14 @@ struct HeroeCard<Content: View> : View{
         ZStack {
             Rectangle()
                 .fill(Color(.lightGray))
-                .frame(height: 200)
+                .frame(height: 250)
                 .id(0)
             VStack{
                 AsyncImage(url: Tool.shared.ThumbnailToURLConverter(this: heroe.thumbnail, withAspect: .portraitUncanny)) {Image in
                     Image
                         .resizable()
                     
-                        .frame(height: 160)
+                        .frame(height: 175)
                         .aspectRatio(contentMode: .fill)
                         .cornerRadius(30)
                         .padding()
@@ -76,7 +76,7 @@ struct HeroeCard<Content: View> : View{
                     Image(systemName: "person")
                         .resizable()
                     
-                        .frame(height: 160)
+                        .frame(height: 175)
                         .aspectRatio(contentMode: .fill)
                         .cornerRadius(30)
                         .padding()
@@ -88,11 +88,11 @@ struct HeroeCard<Content: View> : View{
                         .id(2)
                 }
             }
-            .frame(height: 180)
+            .frame(height: 225)
             .cornerRadius(30)
         }
         .cornerRadius(30)
-        .frame(height: 200)
+        .frame(height: 250)
         
         
         #endif
