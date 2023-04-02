@@ -20,7 +20,7 @@ struct BaseView: View {
         case .loadedHeroes:
             HeroesListView(heroesViewModel: baseViewModel)
         case .loadedSeries:
-            Text("It does not work due to the viewModel")
+            Text("It does not work due to how the viewModel is set")
         case .error(errorMsg: let errorMessage):
             Text("Status: .error. --> \(errorMessage)")
         }

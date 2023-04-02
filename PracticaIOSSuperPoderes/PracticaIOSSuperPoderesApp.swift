@@ -16,7 +16,6 @@ struct PracticaIOSSuperPoderesApp: App {
         WindowGroup {
             BaseView()
                 .environmentObject(baseViewModel)
-            //ContentView(viewModel: HeroesTableViewModel())
         }
     }
 }

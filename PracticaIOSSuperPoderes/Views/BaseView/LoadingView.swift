@@ -13,12 +13,9 @@ struct LoadingView: View {
             Text("Loading")
                 .id(0)
         })
-         //   .progressViewStyle(LinearProgressViewStyle(tint: .red))
         .progressViewStyle(CircularProgressViewStyle(tint: .red))
         .foregroundColor(.red)
         .id(1)
-        
-            
     }
 }
 

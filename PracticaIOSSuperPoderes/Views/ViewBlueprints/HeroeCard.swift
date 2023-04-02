@@ -20,7 +20,7 @@ struct HeroeCard<Content: View> : View{
     }
     
     var body: some View{
-        #if os(watchOS)
+    #if os(watchOS)
         ZStack {
             Rectangle()
                 .fill(Color(.lightGray))
@@ -30,7 +30,6 @@ struct HeroeCard<Content: View> : View{
                 AsyncImage(url: Tool.shared.ThumbnailToURLConverter(this: heroe.thumbnail, withAspect: .portraitUncanny)) {Image in
                     Image
                         .resizable()
-                    // .frame(width:225 ,height: 175)
                         .frame(height: 140)
                         .aspectRatio(contentMode: .fill)
                         .cornerRadius(30)
@@ -50,14 +49,11 @@ struct HeroeCard<Content: View> : View{
             }
             .frame(height: 200)
             .cornerRadius(30)
-            
         }
         .cornerRadius(30)
         .frame(height: 200)
         
-        
-        
-        #else
+    #else
         ZStack {
             Rectangle()
                 .fill(Color(.lightGray))
@@ -67,7 +63,6 @@ struct HeroeCard<Content: View> : View{
                 AsyncImage(url: Tool.shared.ThumbnailToURLConverter(this: heroe.thumbnail, withAspect: .portraitUncanny)) {Image in
                     Image
                         .resizable()
-                    
                         .frame(height: 175)
                         .aspectRatio(contentMode: .fill)
                         .cornerRadius(30)
@@ -75,7 +70,6 @@ struct HeroeCard<Content: View> : View{
                 } placeholder: {
                     Image(systemName: "person")
                         .resizable()
-                    
                         .frame(height: 175)
                         .aspectRatio(contentMode: .fill)
                         .cornerRadius(30)
@@ -94,7 +88,6 @@ struct HeroeCard<Content: View> : View{
         .cornerRadius(30)
         .frame(height: 250)
         
-        
-        #endif
+    #endif
     }
 }

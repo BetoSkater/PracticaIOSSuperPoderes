@@ -5,6 +5,8 @@
   Created by Alberto Junquera Ramírez on 22/3/23.
   
 */
+///Spanish localized strings.
+
 "Loading" = "Cargando datos";
 "Error" = "Error";
 "MarvelHeroesList" = "Personajes de Marvel";

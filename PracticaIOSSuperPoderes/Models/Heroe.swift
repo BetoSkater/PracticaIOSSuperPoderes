@@ -6,6 +6,9 @@
 //
 
 import Foundation
+
+///Structs needed to decode the desired data form the Heroes Api Call
+
 //MARK: - Request Header Data -
 struct RequestData: Codable{
     let code: Int
@@ -36,6 +39,7 @@ struct Heroe: Codable, Identifiable{
 }
 
 // MARK: - Thumbnail -
+///Thumbnail is also need for the Series Api Call.
 struct Thumbnail: Codable {
     let path: String
     let thumbnailExtension: Extension?

@@ -7,6 +7,9 @@
 
 import Foundation
 
+//MARK: - Enums -
+///Enums needed to generate the URLRequest:
+
 enum auth:String{
     case ts = "1"
     case apikey = "70c3542b3477f3734ce1952ea11618d0"
@@ -75,5 +78,4 @@ final class Networking{
         
         return request
     }
-    
 }

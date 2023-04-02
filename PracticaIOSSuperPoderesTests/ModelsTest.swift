@@ -8,17 +8,18 @@
 import XCTest
 
 final class ModelsTest: XCTestCase {
-
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
-
+    
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
+    
     //MARK: - Heroe Model Testing -
     
+    /// Heroe Model Test
     func testHeroeModel() throws{
         
         let thumbnail = Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/6/30/4ce69c2246c21", thumbnailExtension: .jpg)
@@ -34,12 +35,10 @@ final class ModelsTest: XCTestCase {
         XCTAssertEqual(heroe.name, "Storm")
         XCTAssertEqual(heroe.description.isEmpty, false)
         XCTAssertNotNil(heroe.thumbnail)
-        
-
     }
     
-    
     //MARK: - Serie Model Tessting -
+    /// Serie Model Test
     func testSerieModel() throws{
         
         let thumbnail = Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/6/30/4ce69c2246c21", thumbnailExtension: nil)
@@ -55,7 +54,5 @@ final class ModelsTest: XCTestCase {
         XCTAssertEqual(serie.title, "Twin Peaks")
         XCTAssertEqual(serie.description?.isEmpty, nil)
         XCTAssertNotNil(serie.thumbnail)
-        
-
     }
 }

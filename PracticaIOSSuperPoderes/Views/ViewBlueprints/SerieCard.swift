@@ -21,7 +21,7 @@ struct SerieCard<Content: View> : View{
     
     var body: some View{
         
-        #if os(watchOS)
+    #if os(watchOS)
         
         ZStack{
             VStack {
@@ -57,7 +57,8 @@ struct SerieCard<Content: View> : View{
         .frame(height: 200)
         .background(Color(.lightGray)) //TODO: Change to gray
         .cornerRadius(25)
-        #else
+        
+    #else
         ZStack{
             VStack {
                 AsyncImage(url: Tool.shared.ThumbnailToURLConverter(this: serie.thumbnail, withAspect: .portraitUncanny)) { Image in
@@ -91,7 +92,7 @@ struct SerieCard<Content: View> : View{
         .background(Color(.lightGray)) //TODO: Change to gray
         .cornerRadius(25)
         
-        #endif
+    #endif
     }
 }
 

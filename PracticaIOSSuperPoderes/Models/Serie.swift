@@ -7,6 +7,8 @@
 
 import Foundation
 
+///Structs needed to decode the desired data form the Series Api Call
+
 // MARK: - SeriesResult -
 struct SeriesResult: Codable {
     let code: Int
