@@ -11,7 +11,7 @@ import Combine
 
 final class HeroeSeriesViewModel: ObservableObject{
     @Published var status: Status = .none
-    @Published var series: [Serie] = []
+    @Published var series: [Serie]? = []
     
     @Published var heroe: Heroe
     
